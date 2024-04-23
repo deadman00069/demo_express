@@ -78,6 +78,18 @@ app.use("/f12", (req: Request, res: Response) => {
   });
 });
 
+app.use("/f13", (req: Request, res: Response) => {
+  res.status(200).json({
+    data: "data from f13",
+  });
+});
+
+app.use("/f14", (req: Request, res: Response) => {
+  res.status(200).json({
+    data: "data from f14",
+  });
+});
+
 app.listen(port, () => {
   console.log("listending to this");
 });
