@@ -1,7 +1,7 @@
 import express from "express";
 import { NextFunction, Request, Response } from "express";
 
-const port = 3002;
+const port = 3009;
 const app = express();
 
 app.use(express.json());
